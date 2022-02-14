@@ -33,7 +33,7 @@ function startTime()
 {
     if(!clicked) {
         time = formatTime(miliseconds);
-        timeInterval = setInterval(showTime, 10);
+        timeInterval = setInterval(showTime, 20);
         clicked = true;
     }
 }
