@@ -23,7 +23,7 @@ function initialize()
 
 function showTime()
 {
-    miliseconds += 10;
+    miliseconds += 25;
     console.log(miliseconds);
     time = formatTime(miliseconds);
     watch.innerHTML = time;
@@ -33,7 +33,7 @@ function startTime()
 {
     if(!clicked) {
         time = formatTime(miliseconds);
-        timeInterval = setInterval(showTime, 20);
+        timeInterval = setInterval(showTime, 25);
         clicked = true;
     }
 }
